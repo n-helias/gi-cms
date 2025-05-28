@@ -458,6 +458,7 @@ export interface ContentFormBlock extends Schema.Component {
       Attribute.SetMinMaxLength<{
         maxLength: 255;
       }>;
+    emailTo: Attribute.Email;
   };
 }
 

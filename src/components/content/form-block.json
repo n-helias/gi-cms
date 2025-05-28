@@ -85,6 +85,9 @@
     "textPlaceholder": {
       "type": "string",
       "maxLength": 255
+    },
+    "emailTo": {
+      "type": "email"
     }
   }
 }
